@@ -123,17 +123,16 @@ content:
     layout: text
     content: |
       **Programming Languages**
-      - JavaScript/TypeScript, Solidity, Python, Shell Scripting, C/C++, HTML, CSS, Java
+      - JavaScript/TypeScript, Solidity, Python, Shell Scripting, C/C++, HTML, CSS
 
       **Platforms & Frameworks**
-      - Node.js, React Native, React, Express.js
-      - Web3.js, Truffle, Hardhat
-      - TensorFlow, PyTorch
+      - Node.js, Next.js, React Native, React, Express.js
+      - Ethers.js, Web3.js, Hardhat, Openzeppelin
 
       **Tools & Technologies**
       - Git, Docker, Kubernetes
-      - AWS, Google Cloud Platform
-      - MongoDB, PostgreSQL, Redis
+      - AWS, Google Cloud Platform, Azure
+      - MongoDB, Redis, Firebase
       - CI/CD pipelines
 
   - title: Awards & Achievements

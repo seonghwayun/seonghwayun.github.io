@@ -1,0 +1,40 @@
+# Jekyll generated files
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Gem files
+Gemfile.lock
+.bundle/
+vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node modules (if using any)
+node_modules/
+
+# Build outputs
+dist/
+build/
