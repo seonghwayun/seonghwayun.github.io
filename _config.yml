@@ -1,0 +1,222 @@
+# Site
+repository: seonghwayun/seonghwayun.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Seonghwa Yun
+title: Software Engineer
+email: seonghwa.yun@gmail.com
+# email_title: Email (Email title override)
+phone: +82-10-9095-0335
+# phone_title: Phone (Phone title override)
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: jekyllrb
+github_username: seonghwayun
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: seonghwa-yun
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+# about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_content: | # this will include new lines to allow paragraphs
+  Experienced Software Engineer with expertise in **full-stack development** and **blockchain engineering**. Currently working at Common Computer, with previous experience at NAVER and Tibero.
+  
+  I specialize in:
+    - JavaScript/TypeScript, Solidity, Python, C/C++
+    - React, React Native, Node.js
+    - Blockchain and distributed systems
+    - AI applications, MCP (Model Context Protocol), and A2A integration
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Common Computer
+        sub_title: Software Engineer
+        caption: May 2018 - Present
+        description: |
+          Full-stack Developer, Blockchain Engineer
+          - Developing decentralized applications and smart contracts
+          - Building scalable web applications using modern JavaScript frameworks
+          - Contributing to open-source blockchain projects
+
+      - layout: left
+        title: NAVER
+        sub_title: Researcher/Developer
+        caption: Apr 2017 - May 2018
+        description: |
+          Machine Learning Researcher / Search System Developer
+          - Developed machine learning models for search ranking optimization
+          - Implemented large-scale data processing pipelines
+          - Improved search system performance and accuracy
+
+      - layout: left
+        title: Tibero
+        sub_title: Engineer/Researcher
+        caption: Mar 2014 - Mar 2017
+        description: |
+          Develop, maintain and support an application for high-availability DB clusters on various OS environments using C and related tools.
+          - Designed and implemented database clustering solutions
+          - Optimized performance for enterprise-level database systems
+          - Provided technical support for critical database infrastructure
+
+      - layout: left
+        title: Wizet
+        sub_title: Web Developer (Internship)
+        caption: Jun 2010 - Aug 2010
+        description: |
+          Develop, maintain and support a Web application using CodeIgniter framework.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: Korea Advanced Institute of Science and Technology (KAIST)
+        sub_title: Master's degree in Electrical Engineering
+        caption: Mar 2012 - Feb 2014
+        description: |
+          **GPA: 3.85/4.3**
+          
+          Focus on telecommunications and network systems
+
+      - layout: top-left
+        title: Korea Advanced Institute of Science and Technology (KAIST)
+        sub_title: Bachelor's degree in Computer Science
+        caption: Mar 2008 - Feb 2012
+        description: |
+          **GPA: 3.8/4.3**
+          
+          Strong foundation in algorithms, data structures, and software engineering
+
+  - title: Skills
+    layout: text
+    content: |
+      **Programming Languages**
+      - JavaScript/TypeScript, Solidity, Python, Shell Scripting, C/C++, HTML, CSS, Java
+
+      **Platforms & Frameworks**
+      - Node.js, React Native, React, Express.js
+      - Web3.js, Truffle, Hardhat
+      - TensorFlow, PyTorch
+
+      **Tools & Technologies**
+      - Git, Docker, Kubernetes
+      - AWS, Google Cloud Platform
+      - MongoDB, PostgreSQL, Redis
+      - CI/CD pipelines
+
+  - title: Awards & Achievements
+    layout: list
+    content:
+      - layout: top-left
+        title: International Collegiate Programming Contest (ICPC) Korea Regional
+        sub_title: Competitive Programming
+        caption: 2010 - 2011
+        description: |
+          - **7th place**, Team Bruteforce, 2011
+          - **9th place**, Team ForTheBuffet, 2010
+          
+          Demonstrated strong problem-solving skills and algorithmic thinking
+
+  - title: Patents
+    layout: text
+    content: |
+      Author/co-author of **11 patents** in various technology domains:
+      
+      **Blockchain & Distributed Computing**
+      1. Minhyun Kim; Dongil Seo; **Seonghwa Yun**; Youngseo Yoo, "SYSTEM AND METHOD FOR SERVERLESS COMPUTING BASED ON BLOCKCHAIN", [Link](https://doi.org/10.8080/1020190110550?urlappend=en)
+      2. "P2P CLOUD COMPUTING SYSTEM AND METHOD FOR CONNECTING SOURCE CODE TO RUNNING ENVIRONMENT AND EXECUTING SOURCE CODE IN SAME", [Link](https://doi.org/10.8080/1020190105138?urlappend=en)
+      3. Minhyun Kim; Dongil Seo; **Seonghwa Yun**; Youngseo Yoo; Minsu Lee; Sanghee Choi, "METHOD AND SYSTEM FOR MANAGING STATES FOR A BLOCK CHAIN INCLUDING A STATE DATABASE OF TREE STRUCTURE", [Link](https://doi.org/10.8080/1020200136084?urlappend=en)
+      
+      **AI & Robotics**
+      4. Minhyun Kim; Dongil Seo; **Seonghwa Yun**; Hongmin Yang; Donghyeon Choi, "METHOD AND SYSTEM FOR AUGMENTING AND SHARING ROBOT INTELLIGENCE BASED ON CONTAINER", [Link](https://doi.org/10.8080/1020200129712?urlappend=en)
+      
+      **User Interface & Social Networking**
+      5. Daesung Kim; Jiyoung Yang; **Seonghwa Yun**; Youngseo Yoo, "METHOD AND SYSTEM FOR PROVIDING REWARD BY USING A USER INTERFACE ON A DISPLAY OF AN ELECTRONIC DEVICE", [Link](https://doi.org/10.8080/1020190047485?urlappend=en)
+      6. "SYSTEM AND METHOD FOR TRANSACTION OF CONTENTS AND ADVERTISEMENT IN A SOCIAL NETWORKING SERVICE", [Link](https://doi.org/10.8080/1020190146242?urlappend=en)
+      
+      **Development Tools**
+      7. "METHOD AND SYSTEM FOR PROVIDING ONE-CLICK DISTRIBUTION SERVICE IN LINKAGE WITH CODE REPOSITORY", [Link](https://doi.org/10.8080/1020200160253?urlappend=en)
+      
+      **Networking & Energy Efficiency**
+      8. Jun Kyun Choi; **Seonghwa Yun**; Seung Hyun Jeon, "Method and System for Energy Efficient Bandwidth Allocation for Relay in Millimeter-Wave Mobile Systems", [Link](https://doi.org/10.8080/1020150049632?urlappend=en)
+      9. Jun Kyun Choi; Seung Hyun Jeon; Hyeontaek Oh; **Seonghwa Yun**, "METHOD AND APPARATUS FOR MEASURING ENERGY FOR NETWORKS EQUIPMENT", [Link](https://doi.org/10.8080/1020120111055?urlappend=en)
+      10. Jun Kyun Choi; Seung Hyun Jeon; **Seonghwa Yun**; Kyeongmin Lee; Hyeontaek Oh, "COMMUNICATION METHOD USING ENERGY EFFICIENT TDMA MAC PROTOCOL FOR HIERARCHICAL COOPERATION", [Link](https://doi.org/10.8080/1020120113254?urlappend=en)
+
+  - title: Publications
+    layout: text
+    content: |
+      Published **6 papers** in international conferences and journals on energy efficiency in wireless networks and mobile systems:
+      
+      1. Joohyung Lee; **Seonghwa Yun**; Hyeontaek Oh; S. H. Shah Newaz; Seong Gon Choi; and Jun Kyun Choi, "Power-Efficient Rate Allocation of Wireless Access Networks with Sleep-Operation Management for Multihoming Services," *JOURNAL OF COMMUNICATIONS AND NETWORKS, VOL. 18, NO. 4, AUGUST 2016*, [Link](http://ieeexplore.ieee.org/document/7578943/)
+      
+      2. **Seonghwa Yun**; JooHyung Lee; S. H. Shah Newaz; Jun Kyun Choi, "Energy Efficient Pricing Scheme for Multi-homing in Heterogeneous Wireless Access Networks: A Game Theoretic Model and its Analysis," *Wireless Communications and Networking Conference (WCNC), 2015 IEEE*, [Link](http://ieeexplore.ieee.org/document/7127719/)
+      
+      3. JoonSan Kim; **Seonghwa Yun**; Seung Hyun Jeon; Ae-Soon Park; Jun Kyun Choi, "Energy-Efficient User Relaying Scheme in Metropolitan mmWave Mobile Broadband System," *International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC), 2014 IEEE*, [Link](http://ieeexplore.ieee.org/document/7136370/)
+      
+      4. **Seonghwa Yun**; Seung Hyun Jeon; and Jun Kyun Choi, "Energy Efficiency of Relay Operation in Millimeter-Wave Mobile Broadband Systems," *Vehicular Technology Conference (VTC spring), 2014 IEEE*, [Link](http://ieeexplore.ieee.org/document/7022906/)
+      
+      5. **Seonghwa Yun**; Kyeongmin Lee; Sangdon Park; Jun Kyun Choi, "Energy Efficient Relay Selection Scheme with DRX Mechanism in 3GPP LTE Network," *ICT Convergence (ICTC), 2013 International Conference on*, [Link](http://ieeexplore.ieee.org/document/6675296/)
+      
+      6. Seung Hyun Jeon; Kyeongmin Lee; **Seonghwa Yun**; Jun Kyun Choi, "An Energy Efficient Hierarchical Cooperation Based TDMA MAC Protocol in Ad Hoc Wireless Networks," *Vehicular Technology Conference (VTC Spring), 2013 IEEE 77th*, [Link](http://ieeexplore.ieee.org/document/6691873/)
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+remote_theme: sproogen/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  "temp_resume/",
+  ]
